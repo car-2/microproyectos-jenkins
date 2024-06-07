@@ -13,5 +13,6 @@ COPY . .
 # Exponer el puerto utilizado por la aplicación
 EXPOSE 6001
 
+
 # Ejecutar la aplicación
 CMD ["npm", "start"]
